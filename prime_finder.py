@@ -1,10 +1,13 @@
-num = 600851475143
-i = 2
-while i < num//2:
+import math
+
+num = 6008514751435
+i = 1
+while i < math.sqrt(num):
     if num % i == 0:
         num = num/i
         i = i+1
     else:
         i = i+1
-print(num)
 
+
+print(num)
