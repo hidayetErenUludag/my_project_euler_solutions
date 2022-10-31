@@ -1,4 +1,5 @@
 i = 1
+a = 0
 num_list = [] #stores the i squared
 while i < 101:
     num_list.append(i*i) # finds the spare of i

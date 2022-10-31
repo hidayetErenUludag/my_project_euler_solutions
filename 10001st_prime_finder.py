@@ -1,15 +1,18 @@
-def prime_count(n):
-    count = 2
-    for i in range(3, n**2, 2):
-        k = 1
-        while k * k < i:
-            k += 2
-            if i % k == 0:
-                break
-        else:
-            count += 1
-        if count == n:
-            return i
 
+def primes_upto(limit):
+    limitN = limit+1
+    not_prime = set()
+    primes = [2]
 
-print(prime_count(10001))
+    for i in range(3, limitN, 2):
+        if i in not_prime:
+            continue
+
+        for j in range(i*3, limitN, i*2):
+            not_prime.add(j)
+
+        primes.append(i)
+    return primes
+primes_upto(1001**2)
+
+print()
