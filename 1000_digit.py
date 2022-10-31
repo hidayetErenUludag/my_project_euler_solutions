@@ -7,7 +7,7 @@ first = 0                              # start at the first digit
 while first < len(n) - (ndigits - 1):  # process each complete set
     last = first + ndigits             # the last digit in the group
     num = n[first:last]                # extract the substring of digits
-    total = 1;                         # start calculating
+    total = 1                         # start calculating
     for i in num[:]:                   #
         total *= int(i)                # multiply the digits together
     if total > max:                 # is this bigger than the current maximum value?
