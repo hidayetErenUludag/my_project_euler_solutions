@@ -11,3 +11,5 @@ while i < math.sqrt(num):
 
 
 print(num)
+
+print("*", end="")
