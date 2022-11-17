@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f76f5b-4b17-43bc-8a37-69f1a4d20c98" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lattice_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/lattice_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Power_digit_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Power_digit_sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1668422017826" duration="14467000" />
       <workItem from="1668538767342" duration="805000" />
       <workItem from="1668540587009" duration="8005000" />
-      <workItem from="1668703701808" duration="1126000" />
+      <workItem from="1668703701808" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666682351940</created>
@@ -230,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668703716644</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix">
+      <created>1668705680383</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668705680383</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +271,7 @@
     <SUITE FILE_PATH="coverage/pyproject$Pythagorean__triple.coverage" NAME="Pythagorean _triple Coverage Results" MODIFIED="1667213650905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$main.coverage" NAME="main Coverage Results" MODIFIED="1667808557274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$hcdinrange_20.coverage" NAME="hcdinrange_20 Coverage Results" MODIFIED="1667810014626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyproject$Power_digit_sum.coverage" NAME="Power_digit_sum Coverage Results" MODIFIED="1668705736430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$lab_w5__1_.coverage" NAME="lab_w5 (1) Coverage Results" MODIFIED="1667369689854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
 </project>
