@@ -1,12 +1,8 @@
-def way_finder(n):
-    a = int(input("first grid :"))
-    b = int(input("second grid :"))
-    c = 1
-    d = 1
-    for i in range(1, a+b+1):
-        c *= i
-    for j in range(1, b+1):
-        d *= j
-    print(c/(d*d))
+a = 55
+b = 100
+c = 100
+d = 100
+e = 100
 
-way_finder(1)
+final = (a*0.02)*(b+0.02)*(c*0.02)*(d*0.03)*(e*0.01)//5
+print(final)
