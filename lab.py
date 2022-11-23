@@ -1,7 +1,3 @@
-import time
-
-start = time.time()
-
 nums = [
     [75],
     [95, 64],
@@ -33,5 +29,7 @@ def highest_finder(n):
 
 
 highest_finder(4)
+
+
 
 
