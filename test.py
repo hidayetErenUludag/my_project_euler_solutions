@@ -1,21 +1,18 @@
-
-def lex_permutation():
-    nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    millionth = 1000000
-    i = 1
-    while i >= 1:
-        new_num = []
-        j = 1
-        while j * factorial(len(nums)-1) < millionth:
-            millionth -= factorial(len(nums)-1)
-            j += 1
-        print(millionth)
-        print(j)
-        a = (nums[j])
-        new_num.append(a)
-        nums.remove(nums[j])
-        print(new_num)
-        print(nums)
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v"
+    , "w", "x", "y", "z"]
 
 
-print(j_finder(6))
+def spliter(n):
+    f = open("words.txt","w")
+    remain = len(alphabet) % n
+    for i in range(len(alphabet) - remain):
+        count = 0
+        for j in range(n):
+            f.write(alphabet[count])
+            count += 1
+
+
+
+
+
+spliter(3)

@@ -7,7 +7,7 @@ def fib_1000():
         if len(str(b)) >= 1000:
             print(b)
             print(count)
-            return
+            break
 
 
 fib_1000()
