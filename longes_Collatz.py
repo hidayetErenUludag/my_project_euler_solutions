@@ -1,3 +1,5 @@
+import matplotlib as plt
+
 def collatz(i):
     count = 0
     while i > 1:
@@ -10,10 +12,9 @@ def collatz(i):
     return count
 
 
-list = []
-for j in range(1, 1000001):
+lists = []
+for j in range(1, 10001):
     list.append([collatz(j), j])
 
 print(sorted(list))
-
 
