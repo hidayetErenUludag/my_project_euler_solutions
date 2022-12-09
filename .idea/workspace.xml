@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="34f76f5b-4b17-43bc-8a37-69f1a4d20c98" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quadratic_primes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quadratic_primes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number_spiral_diagonals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Number_spiral_diagonals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longes_Collatz.py" beforeDir="false" afterPath="$PROJECT_DIR$/longes_Collatz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +131,7 @@
       <workItem from="1669708962587" duration="11141000" />
       <workItem from="1669888423607" duration="1018000" />
       <workItem from="1669966846411" duration="2575000" />
-      <workItem from="1670355150595" duration="5955000" />
+      <workItem from="1670355150595" duration="11467000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666682351940</created>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669798443958</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix">
+      <created>1670402513240</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670402513240</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,11 +372,11 @@
     <SUITE FILE_PATH="coverage/pyproject$wefg.coverage" NAME="wefg Coverage Results" MODIFIED="1669285370788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$horizontal.coverage" NAME="horizontal Coverage Results" MODIFIED="1667997393875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Non_abundant_sums.coverage" NAME="Non-abundant_sums Coverage Results" MODIFIED="1669290548891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyproject$Quadratic_primes.coverage" NAME="Quadratic_primes Coverage Results" MODIFIED="1669889018393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyproject$Quadratic_primes.coverage" NAME="Quadratic_primes Coverage Results" MODIFIED="1670402363341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Names_scores.coverage" NAME="Names_scores Coverage Results" MODIFIED="1669284681241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$lattice_path.coverage" NAME="lattice_path Coverage Results" MODIFIED="1668705444723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Amicable_numbers.coverage" NAME="Amicable_numbers Coverage Results" MODIFIED="1669280599607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyproject$test.coverage" NAME="test Coverage Results" MODIFIED="1670396896118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyproject$test.coverage" NAME="test Coverage Results" MODIFIED="1670581620741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$hcdinrange_20.coverage" NAME="hcdinrange_20 Coverage Results" MODIFIED="1667810014626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$lab_w5__1_.coverage" NAME="lab_w5 (1) Coverage Results" MODIFIED="1667369689854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/pyproject$high_div_nums.coverage" NAME="high_div_nums Coverage Results" MODIFIED="1669234500855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -379,6 +385,7 @@
     <SUITE FILE_PATH="coverage/pyproject$sunday_finder.coverage" NAME="sunday_finder Coverage Results" MODIFIED="1669199616119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$fib_num_lower_4million.coverage" NAME="fib_num_lower_4million Coverage Results" MODIFIED="1669966870635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Pythagorean__triple.coverage" NAME="Pythagorean _triple Coverage Results" MODIFIED="1667213650905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyproject$Number_spiral_diagonals.coverage" NAME="Number_spiral_diagonals Coverage Results" MODIFIED="1670584108892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$main.coverage" NAME="main Coverage Results" MODIFIED="1667808557274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Power_digit_sum.coverage" NAME="Power_digit_sum Coverage Results" MODIFIED="1668705901811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyproject$Reciprocal_cycles.coverage" NAME="Reciprocal_cycles Coverage Results" MODIFIED="1669798383965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
