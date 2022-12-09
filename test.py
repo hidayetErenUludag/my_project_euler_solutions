@@ -1,23 +1,20 @@
-def clac():
-  count = 1  # Initialize the running total of the sum to 1 for the center point
-  current_num = 1
-  square = 1
-  while square <= 2:
-    # Compute the corner points of the square using simple arithmetic
-    a = current_num + square * 2
-    b = a + square * 2
-    c = b + square * 2
-    d = c + square * 2
+import time
 
-    # Add the corner points to the running total of the sum
-    count += a + b + c + d
 
-    # Move to the next square and update the current number
-    current_num = d
-    square += 2
+start = time.time()
 
-  # Print the result
-  print(count)
+def fifth_power():
+    digits = []
+    for i in range(2, 1000000):
+        a = 0
+        for j in str(i):
+            a += (int(j)**5)
+        if a == i:
+            digits.append(i)
+    print(sum(digits))
 
-# Test the function
-clac()
+
+fifth_power()
+
+end = time.time()
+print(end-start, "seconds")
